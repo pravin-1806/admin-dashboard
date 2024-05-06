@@ -59,11 +59,11 @@ function SideBar() {
           <Menu.Item key="Contact" icon={<ContactOutlinedIcon/>} style={Style1}><Link to={'/contact'}/>Contact Information</Menu.Item>
           <Menu.Item key="balances" icon={<ReceiptOutlinedIcon/>} style={Style1}>Invoices Balances</Menu.Item>
           <Menu.Item key="PeopleForm" icon={<PersonOutlinedIcon/>} style={Style1}><Link to={'/form'}/> Form</Menu.Item>
-          <Menu.Item key="Calendar" icon={<CalendarTodayOutlinedIcon/>} style={Style1}>Calendar</Menu.Item>
-          <Menu.Item key="FAQ" icon={<HelpOutlinedIcon/>} style={Style1}>FAQ Pages</Menu.Item>
-          <Menu.Item key="Bar" icon={<BarChartOutlinedIcon/>} style={Style1}>Bar Chart</Menu.Item>
-          <Menu.Item key="Pie" icon={<PieChartOutlinedOutlinedIcon/>} style={Style1}>Pie Chart</Menu.Item>
-          <Menu.Item key="Line" icon={<TimelineOutlinedIcon/>} style={Style1}>Line Chart</Menu.Item>
+          <Menu.Item key="Calendar" icon={<CalendarTodayOutlinedIcon/>} style={Style1}><Link to={'/calendar'}/>Calendar</Menu.Item>
+          <Menu.Item key="FAQ" icon={<HelpOutlinedIcon/>} style={Style1}><Link to={'/faq'}/>FAQ Pages</Menu.Item>
+          <Menu.Item key="Bar" icon={<BarChartOutlinedIcon/>} style={Style1}><Link to={'/bar'}/>Bar Chart</Menu.Item>
+          <Menu.Item key="Pie" icon={<PieChartOutlinedOutlinedIcon/>} style={Style1}><Link to={'/pie'}/>Pie Chart</Menu.Item>
+          <Menu.Item key="Line" icon={<TimelineOutlinedIcon/>} style={Style1}><Link to={'/line'}/>Line Chart</Menu.Item>
           <Menu.Item key="Geography" icon={<MapOutlinedIcon/>} style={Style1}>Geography Chart</Menu.Item>
         </Menu>
       </Sider>
